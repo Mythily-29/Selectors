@@ -1,0 +1,46 @@
+
+/*Type selector */
+
+h1{
+    color: rgb(199, 92, 30);
+    text-decoration: dashed underline;
+    background-color: bisque;
+    
+    
+}
+/* Class selector*/
+.lock{
+    color: rgb(93, 92, 165);
+}
+.close{
+    color: lightseagreen;
+}
+.tech{
+    color: lightslategray;
+}
+
+/*Parent selector */
+div>li,Mark,b{
+    color:darkred;
+}
+
+/*Descesdant selector */
+#click li{
+    color:darkgreen ;
+}
+
+/* sibling selector */
+
+/* Sibling selector */
+#complete li~b{
+    color: darkslateblue;
+}
+
+/*Adjacent siblings*/
+
+.come +.comes{
+   color: rgba(10, 1, 126, 0.904);
+}
+
+
+    
